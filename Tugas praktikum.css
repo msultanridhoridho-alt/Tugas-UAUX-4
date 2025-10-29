@@ -1,0 +1,144 @@
+/* perkutut.css — desain sederhana dan rapi */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9f6;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header */
+#header {
+  text-align: center;
+  background-color: #e8eddc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#header h1 {
+  margin: 0;
+  color: #2b3d1f;
+}
+
+blockquote {
+  font-style: italic;
+  color: #444;
+  margin: 15px auto;
+  max-width: 600px;
+}
+
+#soekarno {
+  display: block;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #2f3a1e;
+}
+
+/* Navigasi */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #305030;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #4b7d2a;
+}
+
+/* Gambar utama */
+.gambar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gambar img {
+  width: 200px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+/* Isi teks */
+.isi {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.jawa {
+  color: #4b7d2a;
+  font-weight: bold;
+}
+
+/* Profil */
+#profil, #beternak {
+  background-color: #f0f5e7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Koleksi */
+.koleksi {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.koleksi img {
+  width: 150px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+/* Promo */
+.promo {
+  background-color: #fff7e0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.promo h2 {
+  color: #2f3a1e;
+}
+
+.promo strong {
+  color: #0d5d1a;
+}
+
+#Wa {
+  background-color: #d4f2c2;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+a {
+  color: #2f3a1e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .gambar img,
+  .koleksi img {
+    width: 100px;
+  }
+  }
